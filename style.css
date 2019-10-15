@@ -46,9 +46,12 @@ li a {
 .content {
   height: 0;
   overflow: hidden;
+  transition: height 0.2s ease-in-out;
+  opacity: 1;
 }
 .active {
-  height: auto;
+  height: 100%;
+  transition: height 0.2s ease-in-out;
 }
 /* .accordian #block-1 {
   display: none;
