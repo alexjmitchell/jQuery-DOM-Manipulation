@@ -29,7 +29,7 @@ ul {
 }
 
 li {
-  margin-top: -15px;
+  margin-top: -18px;
 }
 
 li a {
@@ -49,9 +49,17 @@ li a {
   transition: height 0.2s ease-in-out;
   opacity: 1;
 }
+
+.accordian h3:hover {
+  background-color: rgb(10, 200, 190);
+}
+
+.accordian .background {
+  background-color: rgb(10, 200, 190);
+}
 .active {
   height: 100%;
-  transition: height 0.2s ease-in-out;
+  transition: height 0.5s ease-in-out;
 }
 /* .accordian #block-1 {
   display: none;
